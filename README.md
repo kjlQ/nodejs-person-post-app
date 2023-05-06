@@ -4,7 +4,7 @@ This application allows you to create/get/update/delete a users. Users able to c
 
 You can send requests:
 
-##1. Create a user
+## 1. Create a user
 
 POST http://localhost:8080/api/user
 
