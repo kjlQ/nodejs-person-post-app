@@ -4,13 +4,11 @@ This application allows you to create/get/update/delete a users. Users able to c
 
 ### App starting
 
-<html>
-<body>
+```
 npm i && npm run dev
-</body>
-</html>
+```
 
-You can send requests:
+
 
 ### 1. Create a user
 
