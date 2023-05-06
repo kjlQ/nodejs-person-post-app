@@ -4,7 +4,7 @@ This application allows you to create/get/update/delete a users. Users able to c
 
 You can send requests:
 
-## 1. Create a user
+### 1. Create a user
 
 POST http://localhost:8080/api/user
 
@@ -17,7 +17,7 @@ Body:
 <img width="512" alt="image" src="https://user-images.githubusercontent.com/80161180/236622701-a57142be-5a7c-4c5c-882b-17de5cc76aae.png">
 
 
-2.Get all users
+### 2.Get all users
 
 GET http://localhost:8080/api/user
 
@@ -27,7 +27,7 @@ BODY: none
 
 
 
-3.Get user by id
+### 3.Get user by id
 
 GET http://localhost:8080/api/user/10
 
@@ -37,7 +37,7 @@ BODY: none
 
 
 
-4.Update user
+### 4.Update user
 
 PUT http://localhost:8080/api/user
 
@@ -52,7 +52,7 @@ BODY:
 <img width="489" alt="image" src="https://user-images.githubusercontent.com/80161180/236622772-c2d6a829-1a1a-4e87-b308-8924313cee91.png">
 
 
-5.Delete user by id
+### 5.Delete user by id
 DELETE http://localhost:8080/api/user/10
 
 BODY: none
@@ -61,7 +61,7 @@ BODY: none
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/80161180/236622893-049a6950-7e61-49f0-92ab-67018fbfbda7.png">
 
 
-6.Create post 
+### 6.Create post 
 
 POST http://localhost:8080/api/post
 
@@ -75,7 +75,7 @@ BODY:
 <img width="549" alt="image" src="https://user-images.githubusercontent.com/80161180/236623197-3d833a83-1f93-4b14-b600-b2ab6d266a8e.png">
 
 
-8.Get post 
+### 7.Get post by user_id query
 
 GET http://localhost:8080/api/post?id=1
 
