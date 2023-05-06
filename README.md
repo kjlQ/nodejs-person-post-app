@@ -2,6 +2,14 @@
 
 This application allows you to create/get/update/delete a users. Users able to create a post title and context. Also you can get users posts by query param ?id=(user_id)
 
+### App starting
+
+<html>
+<body>
+npm i && npm run dev
+</body>
+</html>
+
 You can send requests:
 
 ### 1. Create a user
